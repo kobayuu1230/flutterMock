@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'firstpage.dart';
 
+
+
 class homePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -9,8 +11,9 @@ class homePage extends StatelessWidget{
         title : Text("ページ(0)画像を選択")
       ),
       body : Center(
-        child: TextButton(
-          child: Text("Firstページへ遷移する"),
+         child: Container(
+          child: TextButton(
+          child: Text("次へ"),
           onPressed: (){
            // （1） 指定した画面に遷移する
             Navigator.push(
@@ -21,7 +24,8 @@ class homePage extends StatelessWidget{
         ));
           },
         ),
-      )
+      )),
     );
   }
 }
+
