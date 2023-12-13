@@ -10,7 +10,7 @@ class SecondPage extends StatelessWidget{
       ),
       body : Center(
         child: TextButton(
-          child: Text("Thirdページへ遷移する"),
+          child: Text("次へ"),
           onPressed: (){
              // （1） 指定した画面に遷移する
             Navigator.push(
